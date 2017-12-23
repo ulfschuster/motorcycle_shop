@@ -114,6 +114,6 @@ Rails.application.configure do
                          }
 
   # Configure WebSockets for production
-  config.action_cable.allowed_request_origins = ['https://schuster-ulf-rails-app-53292.herokuapp.com', 'http://happybikeshop-1.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://schuster-ulf-rails-app-53292.herokuapp.com', 'http://schuster-ulf-rails-app-53292.herokuapp.com']
 end
 
