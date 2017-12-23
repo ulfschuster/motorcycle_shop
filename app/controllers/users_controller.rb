@@ -11,7 +11,8 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    @user = User.find(params[:id]) # added in exercise 5.5
+    # byebug
+    logger.debug "inside show method of UsersController"
   end
 
   # GET /users/new
@@ -21,7 +22,7 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
-    @user = User.find(params[:id]) #added in exercise 5.5
+    
   end
 
   # POST /users
@@ -33,7 +34,6 @@ class UsersController < ApplicationController
       if @user.save
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
-        UserMailer.welcome(@user).deliver_now
       else
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
