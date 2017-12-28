@@ -114,8 +114,8 @@ padding-right: 10px;
 }
 
 .pagination .disabled {
-  color: #c5c598;
-  border: 1px solid #c5c598; 
+  color: #000;
+  border: 1px solid #000; 
 }
 
 .current {
@@ -127,15 +127,15 @@ padding-right: 10px;
 .pagination .current {
   font-style: normal;
   font-weight: bold;
-  background: #3de07d;
+  background: #000;
   color: white;
-  border: 1px solid #c5c598; 
+  border: 1px solid #7982ff; 
 }
 
 .pagination a {
   text-decoration: none;
-  color: #c5c598;
-  border: 1px solid #c5c598; 
+  color: #000;
+  border: 1px solid #000; 
 }
 
 .pagination .page_info {
