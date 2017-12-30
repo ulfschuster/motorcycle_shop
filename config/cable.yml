@@ -7,3 +7,4 @@ test:
 production:
   adapter: postgresql
   url: postgres://vwscluurvucrwj:91500c9f0b4643d0298f6035a9f03a849737d01bd3496c4ad5ea662cbc90a627@ec2-79-125-127-60.eu-west-1.compute.amazonaws.com:5432/d12rvnru8cmkrh
+  channel_prefix: rails_app
